@@ -16,7 +16,6 @@
     --cl-hero-background: #2E2F42;
     --cl-white-background: #FFFFFF;
     --cl-modal-background: #FCFCFC;
-    --cl-button-shadow: rgba(0, 0, 0, 0.15)
 
 }
 body {
@@ -53,7 +52,6 @@ button {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
-    text-align: center;
     color: var(--cl-dark);
 }
 
@@ -102,21 +100,14 @@ button {
     color: var(--cl-white-background);
 }
 .btn {
-    box-shadow: 0 4px 4px 0 var(--cl-button-shadow);
     font-weight: 500;
     letter-spacing: 0.04em;
     color: var(--cl-white-background);
     background-color: var(--cl-primary-brand);
-    border: 0px none transparent;
-    border-radius: 4px;
-    min-width: 144px;
-    min-height: 45px;
-    padding: 14px 40px;
 }
 
 .btn:hover,
 .btn:focus {
-    box-shadow: 0 4px 4px 0 var(--cl-button-shadow);
     background-color: var(--cl-pressed-state);
 }
 
