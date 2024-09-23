@@ -1,0 +1,139 @@
+:root {
+    /* Fonts */
+    --font-primary: "Roboto", sans-serif;
+    --font-secondary: "Raleway", sans-serif;
+
+    /* Colors */
+    --cl-primary-brand: #4D5AE5;
+    --cl-pressed-state: #404BBF;
+    --cl-dark: #2E2F42;
+    --cl-success: #31D0AA;
+    --cl-text: #434455;
+    --cl-subtle-text: #8E8F99;
+    --cl-accent: #E7E9FC;
+    --cl-light: #F4F4FD;
+    --cl-modal-overlay: #2E2F42;
+    --cl-hero-background: #2E2F42;
+    --cl-white-background: #FFFFFF;
+    --cl-modal-background: #FCFCFC;
+    --cl-button-shadow: rgba(0, 0, 0, 0.15)
+
+}
+body {
+    font-family: var(--font-primary);
+    font-weight: Regular;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cl-text);
+    background-color: var(--cl-white-background);
+}
+ul,
+ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+button {
+    font-family: inherit;
+    color: currentColor;
+    cursor: pointer;
+}
+
+.item-h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--cl-dark);
+} 
+
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    text-align: center;
+    color: var(--cl-dark);
+}
+
+.header{
+}
+
+.logo {
+
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;}
+
+.logo-accent {
+    color: var(--cl-primary-brand);
+}
+
+.menu-item{
+    font-weight: 500;
+    color: var(--cl-dark);
+
+
+}
+
+.menu-item:hover,
+.address-item:hover {
+    color: var(--cl-pressed-state);
+}
+
+.address-item{
+}
+
+.hero{
+    max-width: 1440px;
+    height: 600px;
+    background-color: var(--cl-hero-background);
+}
+
+.hero-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    text-align: center;
+    color: var(--cl-white-background);
+}
+.btn {
+    box-shadow: 0 4px 4px 0 var(--cl-button-shadow);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--cl-white-background);
+    background-color: var(--cl-primary-brand);
+    border: 0px none transparent;
+    border-radius: 4px;
+    min-width: 144px;
+    min-height: 45px;
+    padding: 14px 40px;
+}
+
+.btn:hover,
+.btn:focus {
+    box-shadow: 0 4px 4px 0 var(--cl-button-shadow);
+    background-color: var(--cl-pressed-state);
+}
+
+.features {
+
+}
+
+.team{
+    background-color: var(--cl-light);
+}
+
+.footer{
+    background-color: var(--cl-hero-background);
+}
+.footer-motto{
+    color: var(--cl-light);
+}
+.footer-logo{
+    color: var(--cl-light);
+}
