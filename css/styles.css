@@ -41,17 +41,25 @@ button {
     cursor: pointer;
 }
 
-.item-h3{
+.item-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--cl-dark);
-} 
+}
+
+.item-text{
+    font-size: 16px;
+}
 
 .section-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: var(--cl-dark);
 }
 
@@ -64,11 +72,17 @@ button {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;}
-
-.logo-accent {
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: var(--cl-primary-brand);
+}
+
+.logo-header-secondary{
+    color: var(--cl-dark);
+}
+
+logo-footer-secondary{
+        color: var(--cl-light);
 }
 
 .menu-item{
@@ -79,10 +93,14 @@ button {
 }
 
 .menu-item:hover,
-.address-item:hover {
+.menu-item:focus,
+.address-item:hover,
+.address-item:focus {
     color: var(--cl-pressed-state);
 }
-
+.address{
+    font-style: normal;
+}
 .address-item{
 }
 
@@ -95,13 +113,15 @@ button {
 .hero-title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
     color: var(--cl-white-background);
 }
 .btn {
     font-weight: 500;
     letter-spacing: 0.04em;
+    line-height: 1.5;
     color: var(--cl-white-background);
     background-color: var(--cl-primary-brand);
 }
@@ -117,6 +137,9 @@ button {
 
 .team{
     background-color: var(--cl-light);
+}
+.team-item{
+    background-color: var(--cl-white-background);
 }
 
 .footer{
