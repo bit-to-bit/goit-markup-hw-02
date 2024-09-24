@@ -81,7 +81,7 @@ button {
     color: var(--cl-dark);
 }
 
-logo-footer-secondary{
+.logo-footer-secondary{
         color: var(--cl-light);
 }
 
@@ -105,8 +105,6 @@ logo-footer-secondary{
 }
 
 .hero{
-    max-width: 1440px;
-    height: 600px;
     background-color: var(--cl-hero-background);
 }
 
